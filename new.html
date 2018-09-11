@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<title>Form</title>
+		<style>
+		input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+		</style>
+	</head>
+		<body>
+			<b></b>
+			<br><br>
+			<center><b>Hello</b></center>
+			<br><br>
+			<div>
+
+			<form>
+
+				<label>
+					<b>name:
+					<input type="text" name="name"	placeholder="your name"/>
+				</label>
+				<br><br>
+				
+				<label>
+					surname:
+					<input type="text" name="second name"	placeholder="your second name"/>
+				</label>
+				<br><br>
+
+				<label>
+					email:
+					<input type="text" name="email"	placeholder="your email"/>
+				</label>
+				<br><br>
+				
+				<label>
+					<span>specialisation:</span>
+					<select name="specialisation">
+					<option value="IS">Information System</option>
+					<option value="MR">Marketing</option>
+					<option value="MN">Management</option>
+					<option value="FN">Finance</option>
+					</select>
+				</label>
+				<br><br>
+				
+				<label style="margin-top: 10em;">
+					gender:
+					<input type="radio" name="ml">Male</input>
+					<input type="radio" name="ml">Female</input>
+				</label>
+				<br><br>
+
+				<label>
+					<input type="checkbox" name="Agree" value="agree">I agree with terms of conditions</input>
+				</label>
+				<br><br>
+
+				<label>
+					<input type="submit" name="sbmt" value="SIGN UP"></input>
+				</label>
+
+				<br><br>
+
+			</form>
+		</div>
+		</body>
+	
+</html>
