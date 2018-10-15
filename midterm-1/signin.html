@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>signin</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+</head>
+<header>
+	<div class="head"> BLUE APPLES
+		<div class="val">
+			<a href="signin.html" class="signin">Sign in</a>
+			<a href="signup.html" class="signup">Sign up</a>
+		</div>
+	</div>
+</header>
+<body>
+	<div class="txt">Sign in</div>	
+		<div class="grid">
+		<div class="form">
+				<ul>
+		 			<li>
+						<label for="email">Email:</label>
+						<input class = "input" id = "email1" type="text" name="email" />
+						<span id="email-error" class="form_hint"></span>
+					</li>
+					<li>
+						<label for="pass">Password:</label>
+						<input class = "input" id="pass1" type="password" name="password" />
+						<span id="pass-error"class="form_hint"></span>
+					</li>
+					<li>
+						<button id="login" type="submit">SIGN IN</button>
+					</li>
+					<li>
+						<span class="success" id="success1"></span>
+						<span id="infor" class="form_hint"></span>
+					</li>
+				</ul>
+			</div>
+		</div>
+</body>
+	<script src="2index.js"></script>
+</html>

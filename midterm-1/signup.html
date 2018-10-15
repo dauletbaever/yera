@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>signup</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+</head>
+<header>
+	<div class="head"> BLUE APPLES
+		<div class="val">
+			<a href="signin.html" class="signin">Sign in</a>
+			<a href="signup.html" class="signup">Sign up</a>
+		</div>
+	</div>
+</header>
+<body>
+	<div class="txt">Sign up</div>	
+		<div class="grid">
+		<div class="form">
+				<ul>
+		 			<li>
+		 				<label for="name">Name:</label>
+		 				<input class = "input" id="user-name" type="text" name="name" />
+		 				<span id="user-name-error" class="form_hint"></span>
+		 			</li>
+		 			<li>
+						<label for="email">Email:</label>
+						<input class = "input" id = "email" type="text" name="email" />
+						<span id="email-error" class="form_hint"></span>
+					</li>
+					<li>
+						<label for="telnumber">Number:</label>
+						<input class = "input" id = "telnumber" type="tel" name="number" />
+						<span id="number-error" class="form_hint"></span>
+					</li>
+					<li>
+						<label for="pass">Password:</label>
+						<input class = "input" id="pass" type="password" name="password" />
+						<span id="pass-error" class="form_hint"></span>
+					</li>
+					<li>
+						<label for="passconfirm">Confirm password:</label>
+						<input class = "input" id="passconfirm" type="password" name="passwordconfirm" />
+						<span id="passconfirm-error" class="form_hint"></span>
+					</li>
+					<li>
+						<button id="submit" type="submit">SIGN UP</button>
+					</li>
+					<li>
+						<span class="success" id="success"></span>
+						<span id="infor" class="form_hint"></span>
+					</li>
+				</ul>
+			</div>
+		</div>
+</body>
+	<script src="index.js"></script>
+</html>
